@@ -22,7 +22,7 @@ function Menu(props) {
         <div className="flex items-center justify-between">
           <h3 className="text-white text-2xl font-semibold">AugmntX</h3>
           <div
-            className="bg-[#303339] text-2xl text-white w-[36px] h-[36px] rounded-full flex items-center justify-center relative right-[-20px]"
+            className="bg-[#303339] text-2xl text-white w-[36px] h-[36px] rounded-full flex items-center justify-center relative right-[-20px] cursor-pointer"
             onClick={() => props.showMenuHandler()}
           >
             <IoClose />

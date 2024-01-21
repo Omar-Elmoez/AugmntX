@@ -34,7 +34,7 @@ function Header() {
             >
               Hire Talent
             </a>
-            <RxHamburgerMenu onClick={() => showMenuHandler()} />
+            <RxHamburgerMenu className="cursor-pointer" onClick={() => showMenuHandler()} />
           </div>
         </Container>
       </header>
